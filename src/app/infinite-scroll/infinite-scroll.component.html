@@ -1,0 +1,12 @@
+<div class="search-results" infinite-scroll
+  [infiniteScrollDistance]="scrollDistance"
+  [infiniteScrollUpDistance]="scrollUpDistance"
+  [infiniteScrollThrottle]="throttle"
+  (scrolled)="onScrollDown()">
+  <!-- <p *ngFor="let i of array">{{ i }}</p> -->
+  <div class="container">
+    <div class="row">
+      <div class="d-inline col-4" *ngFor="let i of array">{{ i }}</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+{
+  "/webservice": {
+    "target": "",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel":"debug"
+  }
+}
